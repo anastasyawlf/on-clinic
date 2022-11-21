@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SISTEM INFORMASI NILAI</title>
+  <title>On-Clinic</title>
   <link href="style.css" rel="stylesheet" />
 </head>
 <?php
@@ -22,8 +22,8 @@ if (isset($_GET['error'])) { ?>
     <form action="cek_level.php" method="post">
       <h3 class="formh3">Login</h3>
       <div>
-        <label class="loginlabel">NIM/NIP</label>
-        <input class="logininput" type="text" name="username" placeholder="NIM/NIP">
+        <label class="loginlabel">Username</label>
+        <input class="logininput" type="text" name="username" placeholder="Username">
       </div>
       <div>
         <label class="loginlabel">Password</label>
