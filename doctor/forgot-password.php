@@ -73,17 +73,17 @@ return true;
 	<h4 class="form-title m-b-xl text-center">Reset Your Password</h4>
 	<form method="post" name="chngpwd" onSubmit="return valid();">
 		<div class="form-group">
-			<input type="text" class="form-control" placeholder="Email Address" required="true" name="email">
+			<input type="text" class="form-control" placeholder="Alamat Email" required="true" name="email">
 		</div>
 
 		<div class="form-group">
-			<input type="text" class="form-control"  name="mobile" placeholder="Mobile Number" required="true">
+			<input type="text" class="form-control"  name="mobile" placeholder="Nomor HP" required="true">
 		</div>
 		<div class="form-group">
- <input class="form-control" type="password" name="newpassword" placeholder="New Password" required="true"/>
+ <input class="form-control" type="password" name="newpassword" placeholder="Password Baru" required="true"/>
  </div>
 <div class="form-group">
- <input class="form-control" type="password" name="confirmpassword" placeholder="Confirm Password" required="true" />
+ <input class="form-control" type="password" name="confirmpassword" placeholder="Konfirmasi Password" required="true" />
 </div>
 
 		
@@ -92,7 +92,7 @@ return true;
 </div><!-- #login-form -->
 
 <div class="simple-page-footer">
-	<p style="color: white">Do you have an account ?<a href="login.php"> SIGN IN</a></p>
+	<p style="color: white">Apakah Anda sudah mempunyai sebuah akun ?<a href="login.php"> MASUK</a></p>
 	
 </div><!-- .simple-page-footer -->
 

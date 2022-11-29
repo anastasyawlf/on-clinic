@@ -58,7 +58,7 @@ if (isset($_POST['login'])) {
 			<h4 class="form-title m-b-xl text-center">Log In</h4>
 			<form method="post" name="login">
 				<div class="form-group">
-					<input type="text" class="form-control" placeholder="Enter Registered Email ID" required="true" name="email">
+					<input type="text" class="form-control" placeholder="Masukkan Email" required="true" name="email">
 				</div>
 
 				<div class="form-group">
@@ -69,11 +69,11 @@ if (isset($_POST['login'])) {
 				<input type="submit" class="btn btn-primary" name="login" value="Masuk">
 			</form>
 			<hr />
-			<a href="signup.php">Signup/Registration</a>
+			<a href="signup.php">Masuk/Mendaftar</a>
 		</div><!-- #login-form -->
 
 		<div class="simple-page-footer">
-			<p><a href="forgot-password.php">FORGOT YOUR PASSWORD ?</a></p>
+			<p><a href="forgot-password.php">LUPA PASSWORD ?</a></p>
 
 		</div><!-- .simple-page-footer -->
 
