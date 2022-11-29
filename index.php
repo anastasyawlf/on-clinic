@@ -44,7 +44,7 @@ if (isset($_POST['submit'])) {
 <html lang="en">
 
 <head>
-    <title>Doctor Appointment Management System || Home Page</title>
+    <title>On-Clinic || Home Page</title>
 
     <!-- CSS FILES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
