@@ -33,7 +33,7 @@ foreach($results as $row)
                     </div>
 
                     <div class="col-lg-2 col-md-6 col-12 my-4 my-lg-0">
-                        <h5 class="mb-lg-4 mb-3">Our Clinic</h5>
+                        <h5 class="mb-lg-4 mb-3">Klinik Kami</h5>
 
                      
 
