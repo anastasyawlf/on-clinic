@@ -5,7 +5,7 @@ if (!empty($_POST["sp_id"])) {
   $sql = $dbh->prepare("SELECT * FROM tbldoctor WHERE Specialization=:spid");
   $sql->execute(array(':spid' => $spid));
 ?>
-  <option value="">Select Doctor</option>
+  <option value="">Pilih Dokter</option>
   <?php
   while ($row = $sql->fetch()) {
   ?>

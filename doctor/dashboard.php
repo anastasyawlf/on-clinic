@@ -60,7 +60,7 @@ var_dump($_SESSION['damsemailid']);
 									?>
 									<div class="pull-left">
 										<h3 class="widget-title text-warning"><span class="counter" data-plugin="counterUp"><?php echo htmlentities($totnewapt); ?></span></h3>
-										<small class="text-color">Total New Appointment</small>
+										<small class="text-color">Total Reservasi Baru</small>
 									</div>
 									<span class="pull-right big-icon watermark"><i class="fa fa-paperclip"></i></span>
 								</div>
@@ -85,7 +85,7 @@ var_dump($_SESSION['damsemailid']);
 									?>
 									<div class="pull-left">
 										<h3 class="widget-title text-success"><span class="counter" data-plugin="counterUp"><?php echo htmlentities($totappapt); ?></span></h3>
-										<small class="text-color">Total Approved</small>
+										<small class="text-color">Total Reservasi Disetujui</small>
 									</div>
 									<span class="pull-right big-icon watermark"><i class="fa fa-ban"></i></span>
 								</div>
@@ -110,7 +110,7 @@ var_dump($_SESSION['damsemailid']);
 										$totncanapt = $query->rowCount();
 										?>
 										<h3 class="widget-title text-danger"><span class="counter" data-plugin="counterUp"><?php echo htmlentities($totncanapt); ?></span></h3>
-										<small class="text-color">Cancelled Appointment</small>
+										<small class="text-color">Reservasi Dibatalkan</small>
 									</div>
 									<span class="pull-right big-icon watermark"><i class="fa fa-unlock-alt"></i></span>
 								</div>
@@ -136,7 +136,7 @@ var_dump($_SESSION['damsemailid']);
 										$totapt = $query->rowCount();
 										?>
 										<h3 class="widget-title text-primary"><span class="counter" data-plugin="counterUp"><?php echo htmlentities($totapt); ?></span></h3>
-										<small class="text-color">Total Appointment</small>
+										<small class="text-color">Total Reservasi</small>
 									</div>
 									<span class="pull-right big-icon watermark"><i class="fa fa-file-text-o"></i></span>
 								</div>
