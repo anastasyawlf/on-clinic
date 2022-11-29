@@ -14,7 +14,7 @@ if($query->rowCount() > 0)
 {
 foreach($results as $row)
 {               ?>
-                        <h5 class="mb-lg-4 mb-3">Timing</h5>
+                        <h5 class="mb-lg-4 mb-3">Jam Kerja</h5>
 
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item d-flex">
@@ -26,7 +26,7 @@ foreach($results as $row)
                             <li class="list-group-item d-flex">
                                 <?php  echo ($row->Email);?></li>
                                 <br>
-                                 <h5 class="mb-lg-4 mb-3">Contact Number</h5>
+                                 <h5 class="mb-lg-4 mb-3">Nomor Telepon</h5>
                             <li class="list-group-item d-flex">
                                 <?php  echo ($row->MobileNumber);?></li>
                         </ul>
@@ -41,7 +41,7 @@ foreach($results as $row)
                     </div>
 <?php $cnt=$cnt+1;}} ?>
                     <div class="col-lg-3 col-md-6 col-12 ms-auto">
-                        <h5 class="mb-lg-4 mb-2">Socials</h5>
+                        <h5 class="mb-lg-4 mb-2">Sosial Media</h5>
 
                         <ul class="social-icon">
                             <li><a href="#" class="social-icon-link bi-facebook"></a></li>
