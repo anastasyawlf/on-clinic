@@ -26,14 +26,22 @@ foreach($results as $row)
                             <li class="list-group-item d-flex">
                                 <?php  echo ($row->Email);?></li>
                                 <br>
+<<<<<<< HEAD
+                                 <h5 class="mb-lg-4 mb-3">Kontak Kami</h5>
+=======
                                  <h5 class="mb-lg-4 mb-3">Nomor Telepon</h5>
+>>>>>>> 881afdfc7678dd48f74257eb88d6fa37d3c88358
                             <li class="list-group-item d-flex">
                                 <?php  echo ($row->MobileNumber);?></li>
                         </ul>
                     </div>
 
                     <div class="col-lg-2 col-md-6 col-12 my-4 my-lg-0">
+<<<<<<< HEAD
+                        <h5 class="mb-lg-4 mb-3">Lokasi</h5>
+=======
                         <h5 class="mb-lg-4 mb-3">Klinik Kami</h5>
+>>>>>>> 881afdfc7678dd48f74257eb88d6fa37d3c88358
 
                      
 
