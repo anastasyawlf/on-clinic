@@ -171,20 +171,20 @@ if (isset($_POST['submit'])) {
                     <div class="col-lg-8 col-12 mx-auto">
                         <div class="booking-form">
 
-                            <h2 class="text-center mb-lg-3 mb-2">Book an appointment</h2>
+                            <h2 class="text-center mb-lg-3 mb-2">Buat Janji Temu Dokter</h2>
 
                             <form role="form" method="post">
                                 <div class="row">
                                     <div class="col-lg-6 col-12">
-                                        <input type="text" name="name" id="name" class="form-control" placeholder="Full name" required='true'>
+                                        <input type="text" name="name" id="name" class="form-control" placeholder="Nama Lengkap" required='true'>
                                     </div>
 
                                     <div class="col-lg-6 col-12">
-                                        <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email address" required='true'>
+                                        <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email" required='true'>
                                     </div>
 
                                     <div class="col-lg-6 col-12">
-                                        <input type="telephone" name="phone" id="phone" class="form-control" placeholder="Enter Phone Number" maxlength="10">
+                                        <input type="telephone" name="phone" id="phone" class="form-control" placeholder="Nomor Telepon" maxlength="10">
                                     </div>
 
                                     <div class="col-lg-6 col-12">
@@ -199,7 +199,7 @@ if (isset($_POST['submit'])) {
 
                                     <div class="col-lg-6 col-12">
                                         <select onChange="getdoctors(this.value);" name="specialization" id="specialization" class="form-control" required>
-                                            <option value="">Select specialization</option>
+                                            <option value="">Pilih Poli</option>
                                             <!--- Fetching States--->
                                             <?php
                                             $sql = "SELECT * FROM tblspecialization";
@@ -215,18 +215,18 @@ if (isset($_POST['submit'])) {
 
                                     <div class="col-lg-6 col-12">
                                         <select name="doctorlist" id="doctorlist" class="form-control">
-                                            <option value="">Select Doctor</option>
+                                            <option value="">Pilih Dokter</option>
                                         </select>
                                     </div>
 
 
 
                                     <div class="col-12">
-                                        <textarea class="form-control" rows="5" id="message" name="message" placeholder="Additional Message"></textarea>
+                                        <textarea class="form-control" rows="5" id="message" name="message" placeholder="Pesan Tambahan"></textarea>
                                     </div>
 
                                     <div class="col-lg-3 col-md-4 col-6 mx-auto">
-                                        <button type="submit" class="form-control" name="submit" id="submit-button">Book Now</button>
+                                        <button type="submit" class="form-control" name="submit" id="submit-button">Pesan Sekarang</button>
                                     </div>
                                 </div>
                             </form>

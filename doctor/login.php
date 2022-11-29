@@ -55,7 +55,7 @@ if (isset($_POST['login'])) {
 
 		</div><!-- logo -->
 		<div class="simple-page-form animated flipInY" id="login-form">
-			<h4 class="form-title m-b-xl text-center">Sign In With Your On-Clinic Account</h4>
+			<h4 class="form-title m-b-xl text-center">Log In</h4>
 			<form method="post" name="login">
 				<div class="form-group">
 					<input type="text" class="form-control" placeholder="Enter Registered Email ID" required="true" name="email">
@@ -66,7 +66,7 @@ if (isset($_POST['login'])) {
 				</div>
 
 
-				<input type="submit" class="btn btn-primary" name="login" value="Sign IN">
+				<input type="submit" class="btn btn-primary" name="login" value="Masuk">
 			</form>
 			<hr />
 			<a href="signup.php">Signup/Registration</a>

@@ -73,7 +73,7 @@ echo "<script>alert('Email-id already exist. Please try again');</script>";
 			
 		</div><!-- logo -->
 		<div class="simple-page-form animated flipInY" id="login-form">
-	<h4 class="form-title m-b-xl text-center">Sign Up With Your On-CLinic Account</h4>
+	<h4 class="form-title m-b-xl text-center">Sign Up</h4>
 	<form action="" method="post">
 		<div class="form-group">
 			<input id="fname" type="text" class="form-control" placeholder="Full Name" name="fname" required="true">
