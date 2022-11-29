@@ -3,29 +3,28 @@
     <div class="media">
       <div class="media-left">
         <div class="avatar avatar-md avatar-circle">
-          <a href="javascript:void(0)"><img class="img-responsive" src="assets/images/images.png" alt="avatar"/></a>
+          <a href="javascript:void(0)"><img class="img-responsive" src="assets/images/images.png" alt="avatar" /></a>
         </div><!-- .avatar -->
       </div>
       <div class="media-body">
         <div class="foldable">
           <?php
-$eid=$_SESSION['odlmseid'];
-$sql="SELECT Name,Email from  tblemployee where ID=:eid";
-$query = $dbh -> prepare($sql);
-$query->bindParam(':eid',$eid,PDO::PARAM_STR);
-$query->execute();
-$results=$query->fetchAll(PDO::FETCH_OBJ);
+          $eid = $_SESSION['damsid'];
+          $sql = "SELECT tbldoctor.FullName,tbldoctor.Email from tbldoctor where ID=:eid";
+          $query = $dbh->prepare($sql);
+          $query->bindParam(':eid', $eid, PDO::PARAM_STR);
+          $query->execute();
+          $results = $query->fetchAll(PDO::FETCH_OBJ);
 
-foreach($results as $row)
-{    
-$email=$row->Email;   
-$fname=$row->Name;     
-}   ?>
-          <h5><a href="javascript:void(0)" class="username"><?php  echo $fname ;?></a></h5>
+          foreach ($results as $row) {
+            $email = $row->Email;
+            $fname = $row->FullName;
+          }   ?>
+          <h5><a href="javascript:void(0)" class="username"><?php echo $fname; ?></a></h5>
           <ul>
             <li class="dropdown">
               <a href="javascript:void(0)" class="dropdown-toggle usertitle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <small><?php  echo $email;?></small>
+                <small><?php echo $email; ?></small>
                 <span class="caret"></span>
               </a>
               <ul class="dropdown-menu animated flipInY">
@@ -69,12 +68,12 @@ $fname=$row->Name;
           <a href="dashboard.php">
             <i class="menu-icon zmdi zmdi-view-dashboard zmdi-hc-lg"></i>
             <span class="menu-text">Dashboard</span>
-            
+
           </a>
-       
+
         </li>
 
-       <li class="has-submenu">
+        <li class="has-submenu">
           <a href="javascript:void(0)" class="submenu-toggle">
             <i class="menu-icon zmdi zmdi-pages zmdi-hc-lg"></i>
             <span class="menu-text">Appointment</span>
@@ -85,10 +84,10 @@ $fname=$row->Name;
             <li><a href="approved-appointment.php"><span class="menu-text">Approved Appointment</span></a></li>
             <li><a href="cancelled-appointment.php"><span class="menu-text">Cancelled Appointment</span></a></li>
             <li><a href="all-appointment.php"><span class="menu-text">All Appointment</span></a></li>
-           
+
           </ul>
         </li>
-        
+
         <li>
           <a href="search.php">
             <i class="menu-icon zmdi zmdi-search zmdi-hc-lg"></i>
