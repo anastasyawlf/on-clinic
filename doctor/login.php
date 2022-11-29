@@ -69,16 +69,15 @@ if (isset($_POST['login'])) {
 				<input type="submit" class="btn btn-primary" name="login" value="Masuk">
 			</form>
 			<hr />
-			<a href="signup.php">Masuk/Mendaftar</a>
-		</div><!-- #login-form -->
+	<a href="signup.php">Masuk/Mendaftar</a>
+</div><!-- #login-form -->
 
-		<div class="simple-page-footer">
-			<p><a href="forgot-password.php">LUPA PASSWORD ?</a></p>
-
-		</div><!-- .simple-page-footer -->
+<div class="simple-page-footer">
+	<p><a href="forgot-password.php">LUPA PASSWORD ?</a></p>
+	
+</div><!-- .simple-page-footer -->
 
 
 	</div><!-- .simple-page-wrap -->
 </body>
-
 </html>

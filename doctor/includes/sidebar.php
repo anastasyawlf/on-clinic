@@ -37,20 +37,20 @@
                 <li>
                   <a class="text-color" href="profile.php">
                     <span class="m-r-xs"><i class="fa fa-user"></i></span>
-                    <span>Profile</span>
+                    <span>Profil</span>
                   </a>
                 </li>
                 <li>
                   <a class="text-color" href="change-password.php">
                     <span class="m-r-xs"><i class="fa fa-gear"></i></span>
-                    <span>Settings</span>
+                    <span>Perbarui Kata Sandi</span>
                   </a>
                 </li>
                 <li role="separator" class="divider"></li>
                 <li>
                   <a class="text-color" href="logout.php">
                     <span class="m-r-xs"><i class="fa fa-power-off"></i></span>
-                    <span>logout</span>
+                    <span>Logout</span>
                   </a>
                 </li>
               </ul>
@@ -76,14 +76,14 @@
         <li class="has-submenu">
           <a href="javascript:void(0)" class="submenu-toggle">
             <i class="menu-icon zmdi zmdi-pages zmdi-hc-lg"></i>
-            <span class="menu-text">Appointment</span>
+            <span class="menu-text">Reservasi</span>
             <i class="menu-caret zmdi zmdi-hc-sm zmdi-chevron-right"></i>
           </a>
           <ul class="submenu">
-            <li><a href="new-appointment.php"><span class="menu-text">New Appointment</span></a></li>
-            <li><a href="approved-appointment.php"><span class="menu-text">Approved Appointment</span></a></li>
-            <li><a href="cancelled-appointment.php"><span class="menu-text">Cancelled Appointment</span></a></li>
-            <li><a href="all-appointment.php"><span class="menu-text">All Appointment</span></a></li>
+            <li><a href="new-appointment.php"><span class="menu-text">Reservasi Baru</span></a></li>
+            <li><a href="approved-appointment.php"><span class="menu-text">Reservasi Disetujui</span></a></li>
+            <li><a href="cancelled-appointment.php"><span class="menu-text">Reservasi Dibatalkan</span></a></li>
+            <li><a href="all-appointment.php"><span class="menu-text">Semua Reservasi</span></a></li>
 
           </ul>
         </li>
@@ -91,13 +91,13 @@
         <li>
           <a href="search.php">
             <i class="menu-icon zmdi zmdi-search zmdi-hc-lg"></i>
-            <span class="menu-text">Search</span>
+            <span class="menu-text">Cari</span>
           </a>
         </li>
         <li>
           <a href="appointment-bwdates.php">
             <i class="menu-icon zmdi zmdi-layers zmdi-hc-lg"></i>
-            <span class="menu-text">Report</span>
+            <span class="menu-text">Laporan</span>
           </a>
         </li>
 

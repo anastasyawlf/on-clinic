@@ -50,7 +50,7 @@ echo "<script>alert('Email-id already exist. Please try again');</script>";
 <html lang="en">
 <head>
 	
-	<title>On-Clinic - Login Page</title>
+	<title>DAMS - Login Page</title>
 	
 
 	<link rel="stylesheet" href="libs/bower/font-awesome/css/font-awesome.min.css">
@@ -69,25 +69,25 @@ echo "<script>alert('Email-id already exist. Please try again');</script>";
 		<div class="simple-page-logo animated swing">
 			
 				<span style="color: white"><i class="fa fa-gg"></i></span>
-				<span style="color: white">On-Clinic</span>
+				<span style="color: white">DAMS</span>
 			
 		</div><!-- logo -->
 		<div class="simple-page-form animated flipInY" id="login-form">
-	<h4 class="form-title m-b-xl text-center">Sign Up</h4>
+	<h4 class="form-title m-b-xl text-center">Sign Up With Your DAMS Account</h4>
 	<form action="" method="post">
 		<div class="form-group">
-			<input id="fname" type="text" class="form-control" placeholder="Nama Lengkap" name="fname" required="true">
+			<input id="fname" type="text" class="form-control" placeholder="Full Name" name="fname" required="true">
 		</div>
 
 		<div class="form-group">
 			<input id="email" type="email" class="form-control" placeholder="Email" name="email" required="true">
 		</div>
 		<div class="form-group">
-			<input id="mobno" type="text" class="form-control" placeholder="Nomor HP" name="mobno" maxlength="10" pattern="[0-9]+" required="true">
+			<input id="mobno" type="text" class="form-control" placeholder="Mobile" name="mobno" maxlength="10" pattern="[0-9]+" required="true">
 		</div>
 		<div class="form-group">
 			<select class="form-control" name="specializationid">
-				<option value="">Pilih Spesialis</option>
+				<option value="">Choose Specialization</option>
 				<?php
 $sql1="SELECT * from tblspecialization";
 $query1 = $dbh -> prepare($sql1);
@@ -108,14 +108,14 @@ foreach($results1 as $row1)
 			<input id="password" type="password" class="form-control" placeholder="Password" name="password" required="true">
 		</div>
 
-		<input type="submit" class="btn btn-primary" value="Daftar" name="submit">
+		<input type="submit" class="btn btn-primary" value="Register" name="submit">
 	</form>
 </div><!-- #login-form -->
 
 <div class="simple-page-footer">
 	<p>
-		<small>Apa Anda sudah mempunyai akun sebelumnya ?</small>
-		<a href="login.php">MASUK</a>
+		<small>Do you have an account ?</small>
+		<a href="login.php">SIGN IN</a>
 	</p>
 </div>
 
