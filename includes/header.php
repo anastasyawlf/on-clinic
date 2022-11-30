@@ -16,29 +16,29 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="#about">About</a>
+                                <a class="nav-link" href="#about">Tentang Kami</a>
                             </li>
 
                            
 
-                            <a class="navbar-brand d-none d-lg-block" href="index.php">
+                            <!-- <a class="navbar-brand d-none d-lg-block" href="index.php">
                                 Doctor Appointment
                                 <strong class="d-block">Management System</strong>
-                            </a>
+                            </a> -->
 
                             <li class="nav-item">
-                                <a class="nav-link" href="check-appointment.php">Check Appointment</a>
+                                <a class="nav-link" href="check-appointment.php">Lihat Janji Temu</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="#booking">Booking</a>
+                                <a class="nav-link" href="#booking">Buat Jaji Temu</a>
                             </li>
 
                             <li class="nav-item">
                                 <a class="nav-link" href="#contact">Contact</a>
                             </li>
                              <li class="nav-item active">
-                                <a class="nav-link" href="doctor/login.php">Doctor</a>
+                                <a class="nav-link" href="doctor/login.php">Login</a>
                             </li>
                         </ul>
                     </div>
