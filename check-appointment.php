@@ -61,12 +61,12 @@ include('doctor/includes/dbconnection.php');
                     <div class="col-lg-12 col-12 mx-auto">
                         <div class="booking-form">
 
-                            <h2 class="text-center mb-lg-3 mb-2">Search Appointment History by Appointment Number/Name/Mobile No</h2>
+                            <h2 class="text-center mb-lg-3 mb-2">Telusuri Riwayat Janji Temu berdasarkan Janji Temu Nomor/Nama/Nomor HP</h2>
 
                             <form role="form" method="post">
                                 <div class="row">
                                     <div class="col-lg-6 col-12">
-                                        <input id="searchdata" type="text" name="searchdata" required="true" class="form-control" placeholder="Appointment No./Name/Mobile No.">
+                                        <input id="searchdata" type="text" name="searchdata" required="true" class="form-control" placeholder="Janji Temu Nomor/Nama/Nomor HP">
                                     </div>
 
                                     <div class="col-lg-3 col-md-4 col-6 mx-auto">
