@@ -89,7 +89,7 @@ if (strlen($_SESSION['damsid'] == 0)) {
 															<td><?php echo htmlentities($row->AppointmentNumber); ?></td>
 															<td><?php echo htmlentities($row->Name); ?></td>
 															<td><?php echo htmlentities($row->MobileNumber); ?></td>
-															<td><?php echo htmlentities($row->Email); ?></td>
+															<td><?php echo htmlentities($row->email); ?></td>
 															<?php if ($row->Status == "") { ?>
 
 																<td><?php echo "Not Updated Yet"; ?></td>

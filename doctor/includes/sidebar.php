@@ -10,14 +10,14 @@
         <div class="foldable">
           <?php
           $eid = $_SESSION['damsid'];
-          $sql = "SELECT tbldoctor.FullName,tbldoctor.Email from tbldoctor where ID=:eid";
+          $sql = "SELECT tbldoctor.FullName,tbldoctor.email from tbldoctor where ID=:eid";
           $query = $dbh->prepare($sql);
           $query->bindParam(':eid', $eid, PDO::PARAM_STR);
           $query->execute();
           $results = $query->fetchAll(PDO::FETCH_OBJ);
 
           foreach ($results as $row) {
-            $email = $row->Email;
+            $email = $row->email;
             $fname = $row->FullName;
           }   ?>
           <h5><a href="javascript:void(0)" class="username"><?php echo $fname; ?></a></h5>

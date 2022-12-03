@@ -1,8 +1,8 @@
 <?php
 session_start();
-// error_reporting(0);
+error_reporting(0);
 include('includes/dbconnection.php');
-var_dump($_SESSION['damsemailid']);
+var_dump($_SESSION['email']);
 ?>
 
 <!DOCTYPE html>
