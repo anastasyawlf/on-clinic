@@ -84,13 +84,13 @@ if (isset($_POST['submit'])) {
 
         <?php include_once('includes/header.php'); ?>
 
-        <section class="hero" id="hero">
+        <section class="hero" id="hero" style="margin-left: auto; margin-right:auto;">
             <div class="container" style="height:200px">
                 <div class="row">
 
-                    <div class="col-12">
+                    <div class="col-20">
                         <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                            <div class="carousel-inner">
+                            <div class="carousel-inner" >
                                 <div class="carousel-item active">
                                     <img src="images/slider/2.jpg" class="img-fluid" alt="">
                                 </div>
