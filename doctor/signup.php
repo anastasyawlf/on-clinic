@@ -68,38 +68,6 @@ if (isset($_POST['submit'])) {
 
 		</div><!-- logo -->
 		<div class="simple-page-form animated flipInY" id="login-form">
-<<<<<<< Updated upstream
-	<h4 class="form-title m-b-xl text-center">Masuk dengan akun DAMS Anda</h4>
-	<form action="" method="post">
-		<div class="form-group">
-			<input id="fname" type="text" class="form-control" placeholder="Nama Lengkap" name="fname" required="true">
-		</div>
-
-		<div class="form-group">
-			<input id="email" type="email" class="form-control" placeholder="Email" name="email" required="true">
-		</div>
-		<div class="form-group">
-			<input id="mobno" type="text" class="form-control" placeholder="Nomor HP" name="mobno" maxlength="10" pattern="[0-9]+" required="true">
-		</div>
-		<div class="form-group">
-			<select class="form-control" name="specializationid">
-				<option value="">Pilih Spesialisasi</option>
-				<?php
-$sql1="SELECT * from tblspecialization";
-$query1 = $dbh -> prepare($sql1);
-$query1->execute();
-$results1=$query1->fetchAll(PDO::FETCH_OBJ);
-
-$cnt=1;
-if($query1->rowCount() > 0)
-{
-foreach($results1 as $row1)
-{               ?>
-				<option value="<?php  echo htmlentities($row1->ID);?>"><?php  echo htmlentities($row1->Specialization);?></option><?php $cnt=$cnt+1;}} ?> 
-			</select>
-			
-		</div>
-=======
 			<h4 class="form-title m-b-xl text-center">Registrasi dengan Akun Anda</h4>
 			<form action="" method="post">
 				<div class="form-group">
@@ -110,7 +78,7 @@ foreach($results1 as $row1)
 					<input id="email" type="email" class="form-control" placeholder="Email" name="email" required="true">
 				</div>
 				<div class="form-group">
-					<input id="mobno" type="text" class="form-control" placeholder="Nomor Telepon" name="mobno" maxlength="10" pattern="[0-9]+" required="true">
+					<input id="mobno" type="text" class="form-control" placeholder="Nomor HP" name="mobno" maxlength="10" pattern="[0-9]+" required="true">
 				</div>
 				<div class="form-group">
 					<select class="form-control" name="specializationid">
@@ -120,7 +88,6 @@ foreach($results1 as $row1)
 						$query1 = $dbh->prepare($sql1);
 						$query1->execute();
 						$results1 = $query1->fetchAll(PDO::FETCH_OBJ);
->>>>>>> Stashed changes
 
 						$cnt = 1;
 						if ($query1->rowCount() > 0) {
@@ -132,18 +99,6 @@ foreach($results1 as $row1)
 
 				</div>
 
-<<<<<<< Updated upstream
-		<input type="submit" class="btn btn-primary" value="Daftar" name="submit">
-	</form>
-</div><!-- #login-form -->
-
-<div class="simple-page-footer">
-	<p>
-		<small>Apakah Anda sudah mempunyai akun ?</small>
-		<a href="login.php">MASUK</a>
-	</p>
-</div>
-=======
 				<div class="form-group">
 					<input id="password" type="password" class="form-control" placeholder="Kata Sandi" name="password" required="true">
 				</div>
@@ -154,11 +109,10 @@ foreach($results1 as $row1)
 
 		<div class="simple-page-footer">
 			<p>
-				<small>Do you have an account ?</small>
-				<a href="login.php">SIGN IN</a>
+				<small>Apakah Anda sudah mempunyai akun ?</small>
+				<a href="login.php">MASUK</a>
 			</p>
 		</div>
->>>>>>> Stashed changes
 
 
 	</div><!-- .simple-page-wrap -->
