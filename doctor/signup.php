@@ -85,7 +85,7 @@ if (isset($_POST['submit'])) {
 					<input id="email" type="email" class="form-control" placeholder="Email" name="email" required="true">
 				</div>
 				<div class="form-group">
-					<input id="mobno" type="text" class="form-control" placeholder="Nomor HP" name="mobno" maxlength="10" pattern="[0-9]+" required="true">
+					<input id="mobno" type="text" class="form-control" placeholder="Nomor HP" name="mobno" maxlength="12" pattern="[0-9]+" required="true">
 				</div>
 				<div class="form-group">
 					<select class="form-control" name="specializationid">
