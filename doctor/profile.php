@@ -89,7 +89,7 @@ if (strlen($_SESSION['damsid'] == 0)) {
                         <div class="form-group">
                           <label for="email2" class="col-sm-3 control-label">Email:</label>
                           <div class="col-sm-9">
-                            <input type="email" class="form-control" id="email" name="email" value="<?php echo $row->Email; ?>" required='true'>
+                            <input type="email" class="form-control" id="email" name="email" value="<?php echo $row->email; ?>" required='true'>
                           </div>
                         </div>
                         <div class="form-group">
