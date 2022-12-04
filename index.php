@@ -212,7 +212,7 @@ Kami memiliki kemauan untuk terus belajar secara teratur dengan menciptakan dan 
                     <p>Anestesi</P>
                 </div>
                 <div class="layanan">
-                    <img src="images/layanan/chest.jpg" alt="">
+                    <img src="images/layanan/jantung.png" alt="">
                     <p>Jantung dan Pembuluh Darah</P>
                 </div>                    
                 <div class="layanan">
@@ -254,16 +254,20 @@ Kami memiliki kemauan untuk terus belajar secara teratur dengan menciptakan dan 
                 
                 <div class="layanan-container">
                 <div class="layanan">
-                    <img src="images/layanan/pathology.jpg" alt="">
+                    <img src="images/layanan/gigi.png" alt="">
                     <p>Gigi</P>
                 </div>                    
                 <div class="layanan">
-                    <img src="images/layanan/radiology.jpg" alt="">
+                    <img src="images/layanan/plastik.png" alt="">
                     <p>Bedah Plastik</P>
                 </div>
                 <div class="layanan">
                     <img src="images/layanan/Pediatric.jpg" alt="">
                     <p>Anak</P>
+                </div>
+                <div class="layanan">
+                    <img src="images/layanan/kejiwaan.png" alt="">
+                    <p>Kejiwaan</P>
                 </div> </div>
                
 
