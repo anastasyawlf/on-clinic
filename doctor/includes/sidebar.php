@@ -9,8 +9,8 @@
       <div class="media-body">
         <div class="foldable">
           <?php
-          $eid = $_SESSION['damsid'];
-          $sql = "SELECT tbldoctor.FullName,tbldoctor.email from tbldoctor where ID=:eid";
+          $eid = $_SESSION['damsemailid'];
+          $sql = "SELECT tbldoctor.FullName,tbldoctor.email from tbldoctor where email=:eid";
           $query = $dbh->prepare($sql);
           $query->bindParam(':eid', $eid, PDO::PARAM_STR);
           $query->execute();

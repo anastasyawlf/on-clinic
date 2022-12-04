@@ -93,7 +93,7 @@ if (isset($_POST['submit'])) {
 
                     <div class="col-20">
                         <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                            <div class="carousel-inner" >
+                            <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <img src="images/slider/2.jpg" class="img-fluid" alt="">
                                 </div>
@@ -249,7 +249,7 @@ if (isset($_POST['submit'])) {
                                     </div>
 
                                     <div class="col-lg-6 col-12">
-                                        <input type="telephone" name="phone" id="phone" class="form-control" placeholder="Nomor Telepon" maxlength="10">
+                                        <input type="telephone" name="phone" id="phone" class="form-control" placeholder="Nomor Telepon" maxlength="14">
                                     </div>
 
                                     <div class="col-lg-6 col-12">

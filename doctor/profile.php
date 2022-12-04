@@ -68,8 +68,8 @@ if (strlen($_SESSION['damsid'] == 0)) {
                 <hr class="widget-separator">
                 <div class="widget-body">
                   <?php
-                  $did = $_SESSION['damsid'];
-                  $sql = "SELECT tbldoctor.*,tblspecialization.ID as sid,tblspecialization.Specialization as sssp from  tbldoctor join tblspecialization on tblspecialization.ID=tbldoctor.Specialization where tbldoctor.ID=:did";
+                  $did = $_SESSION['damsemailid'];
+                  $sql = "SELECT tbldoctor.*,tblspecialization.ID as sid,tblspecialization.Specialization as sssp from  tbldoctor join tblspecialization on tblspecialization.ID=tbldoctor.Specialization where tbldoctor.email=:did";
                   $query = $dbh->prepare($sql);
                   $query->bindParam(':did', $did, PDO::PARAM_STR);
                   $query->execute();
