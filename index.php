@@ -62,6 +62,9 @@ if (isset($_POST['submit'])) {
     <link href="css/owl.theme.default.min.css" rel="stylesheet">
 
     <link href="css/templatemo-medic-care.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css" />
+
     <script>
         function getdoctors(val) {
             //  alert(val);
@@ -136,7 +139,7 @@ if (isset($_POST['submit'])) {
 
                     <div class="col-lg-4 col-md-5 col-12 mx-auto">
                         <div class="featured-circle bg-white shadow-lg d-flex justify-content-center align-items-center">
-                            <p class="featured-text">Pelayanan<br><br><span class="featured-number">12</span><br> Jam/Hari</p>
+                            <p class="featured-text">Pelayanan<br><br><span class="featured-number">24</span><br> Jam/Hari</p>
                         </div>
                     </div>
 
@@ -145,8 +148,70 @@ if (isset($_POST['submit'])) {
         </section>
 
         <section class="gallery">
-            <div class="container">
-                <div class="row">
+        <h2 class="text-center mb-lg-3 mb-2">Layanan Poliklinik</h2>
+        <br>
+            <div class="layanan-container">
+                <div class="layanan">
+                    <img src="images/layanan/anesthesia.jpg" alt="">
+                    <p>Anesthesia</P>
+                </div>
+                <div class="layanan">
+                    <img src="images/layanan/chest.jpg" alt="">
+                    <p>Chest Medicine</P>
+                </div>                    
+                <div class="layanan">
+                    <img src="images/layanan/Dermatology.jpg" alt="">
+                    <p>Dermatology</P>
+                </div>
+                <div class="layanan">
+                    <img src="images/layanan/ent.jpg" alt="">
+                    <p>ENT</P>
+                </div>
+                <div class="layanan">
+                    <img src="images/layanan/family.jpg" alt="">
+                    <p>Family Medicine</P>
+                </div>
+                    </div>
+                
+            <div class="layanan-container">
+                <div class="layanan">
+                    <img src="images/layanan/general.jpg" alt="">
+                    <p>General Surgery</P>
+                </div>
+                <div class="layanan">
+                    <img src="images/layanan/internal.jpg" alt="">
+                    <p>Internal Surgery</P>
+                </div>                    
+                <div class="layanan">
+                    <img src="images/layanan/obstetric.jpg" alt="">
+                    <p>Obstetric and Gynecology</P>
+                </div>
+                <div class="layanan">
+                    <img src="images/layanan/ophtalmology.jpg" alt="">
+                    <p>Ophtalmology</P>
+                </div>
+                <div class="layanan">
+                    <img src="images/layanan/orthopedic.jpg" alt="">
+                    <p>Orthopedic</P>
+                </div>
+                    </div> 
+                
+                <div class="layanan-container">
+                <div class="layanan">
+                    <img src="images/layanan/pathology.jpg" alt="">
+                    <p>Pathology</P>
+                </div>                    
+                <div class="layanan">
+                    <img src="images/layanan/radiology.jpg" alt="">
+                    <p>Radiology</P>
+                </div>
+                <div class="layanan">
+                    <img src="images/layanan/Pediatric.jpg" alt="">
+                    <p>Pediatric</P>
+                </div> </div>
+               
+
+                <!-- <div class="row">
 
                     <div class="col-lg-6 col-6 ps-0">
                         <img src="images/gallery/medium-shot-man-getting-vaccine.jpg" class="img-fluid galleryImage" alt="get a vaccine" title="get a vaccine for yourself">
@@ -154,7 +219,7 @@ if (isset($_POST['submit'])) {
 
                     <div class="col-lg-6 col-6 pe-0">
                         <img src="images/gallery/female-doctor-with-presenting-hand-gesture.jpg" class="img-fluid galleryImage" alt="wear a mask" title="wear a mask to protect yourself">
-                    </div>
+                    </div> -->
 
                 </div>
             </div>

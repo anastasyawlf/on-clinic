@@ -1,0 +1,26 @@
+.layanan-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+.layanan-container .layanan{
+    width: 150px;
+    height: 150px;
+    margin: 0 10px;
+}
+.layanan-container .layanan:hover img{
+    transform: scale(1.2);
+}
+.layanan-container .layanan img{
+    width: 100px;
+    height:100px;
+}
+
+.layanan-container .layanan p {
+text-align: center;
+font-size: 10px;
+font-weight: bold;
+margin-right: 40px;
+color:black;
+}

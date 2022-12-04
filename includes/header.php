@@ -31,7 +31,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="#booking">Buat Jaji Temu</a>
+                                <a class="nav-link" href="#booking">Buat Janji Temu</a>
                             </li>
 
                             <li class="nav-item">
