@@ -119,7 +119,7 @@ if (isset($_POST['submit'])) {
                 <div class="row">
 
                     <div class="col-lg-6 col-md-6 col-12">
-                        <?php
+                    <?php
                         $sql = "SELECT * from tblpage where PageType='aboutus'";
                         $query = $dbh->prepare($sql);
                         $query->execute();
@@ -136,16 +136,72 @@ if (isset($_POST['submit'])) {
                             }
                         } ?>
                     </div>
+                    <div class="col-md-3 col-md-6 col-6">
+                    <img src="images/layanan/1.jpg" alt="" style="height:250px; margin-left: 100px;">
 
-                    <div class="col-lg-4 col-md-5 col-12 mx-auto">
+                    <!-- <div class="col-md-4 col-md-5 col-5">
                         <div class="featured-circle bg-white shadow-lg d-flex justify-content-center align-items-center">
                             <p class="featured-text">Pelayanan<br><br><span class="featured-number">24</span><br> Jam/Hari</p>
-                        </div>
+                        </div> -->
                     </div>
-
+                    </div>
                 </div>
             </div>
-        </section>
+            <br><br>
+
+        <div class="container">
+  <button class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" style="width:45%;">Visi Misi</button>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2" style="width:45%;">Nilai-Nilai</button>                
+<div class="row">
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapseExample1">
+      <div class="card card-body" style="width:90%;">
+      <h2>VISI: </h2>
+Menjadi klinik keluarga pilihan utama dari pelanggannya (family clinic of choice) yang mengedepankan keamanan pasien (patient safety) dan pelayanan.
+<ul>
+  <li>Klinik keluarga pilihan utama</li>
+  <li>Mengedepankan keamanan pasien (patient safety)</li>
+  <li>Pelayanan</li>
+</ul>
+<h2>MISI: </h2>
+Menyediakan pelayanan kesehatan terpadu secara menyeluruh (holistic healthcare) pada keluarga, melalui pelayanan yang berkualitas, fasilitas yang modern dan manajemen yang terbaik.
+<ul>
+  <li>Pelayanan kesehatan terpadu secara menyeluruh (holistic healthcare)</li>
+  <li>Pelayanan berkualitas</li>
+  <li>Fasilitas modern</li>
+  <li>Manajemen terbaik</li>
+</ul>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapseExample2">
+      <div class="card card-body" style="width:90%;">
+      <h6>Care : </h6>
+Kami melayani pasien melalui pelayanan yang responsif, terpadu, nyaman, komunikasi yang baik, mengerti masalah pasien, memberikan pelayanan dan saran yang terbaik, menolong pasien secara menyeluruh, membuat pasien merasa aman seperti dilayani keluarga sendiri. <br>
+
+<h6>Ethic and values :</h6>
+Kami bertanggung jawab secara professional dengan standar etik kesehatan yang baik.
+
+<h6>Quality orientation :</h6>
+Kami mengadopsi manajemen kualitas sebagai filosofi utama dalam apapun yang kami lakukan dan menekankan pada budaya pengembangan kualitas secara menyeluruh atau terintegrasi yang diwujudkan dengan tenaga medis dan pendukung yang terlatih dan dikembangkan dari waktu ke waktu dengan dukungan peralatan yang modern.
+
+<h6>Integrity : </h6>
+Kami bersikap jujur dan memilik prinsip yang jelas serta konsisten untuk mewujudkan cita citanya. <br>
+
+<h6>Team work :</h6>
+Kami bekerja sama antar bagian dan tim dengan niat tulus, merasa menjadi bagian dari sebuah tim, saling mendukung untuk tujuan terbaik untuk klinik dan pasien serta komunitas pendukungnya. Kerjasama dengan pemasok, rumah sakit lanjutan dan juga regulator akan ditingkatkan secara professional untuk kepentingan pasien, keluarga pasien dan karyawan klinik.
+
+<h6>Continuous learning : </h6>
+Kami memiliki kemauan untuk terus belajar secara teratur dengan menciptakan dan memanfaatkan kesempatan untuk belajar, dan menggunakan pengetahuan dan keterampilan baru yang diperoleh dalam pekerjaan dan pembelajaran melalui penerapannya didalam pekerjaan dan tim terkait sehingga dapat meningkatkan kinerja tim dan klinik secara cepat dan signifikan.
+      </div>
+    </div>
+  </div>
+</div></div>
+</div>
+    </section>
+
+        
 
         <section class="gallery">
         <h2 class="text-center mb-lg-3 mb-2">Layanan Poliklinik</h2>
@@ -310,6 +366,9 @@ if (isset($_POST['submit'])) {
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/scrollspy.min.js"></script>
     <script src="js/custom.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
