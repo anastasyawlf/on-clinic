@@ -130,7 +130,7 @@ if (isset($_POST['submit'])) {
                             foreach ($results as $row) {               ?>
                                 <h2 class="mb-lg-3 mb-3"><?php echo htmlentities($row->PageTitle); ?></h2>
 
-                                <p><?php echo ($row->PageDescription); ?>.</p>
+                                <p><?php echo ($row->PageDescription); ?></p>
 
                         <?php $cnt = $cnt + 1;
                             }
@@ -208,10 +208,6 @@ if (isset($_POST['submit'])) {
                 <div class="layanan">
                     <img src="images/layanan/Pediatric.jpg" alt="">
                     <p>Anak</P>
-                </div> </div>
-                <div class="layanan">
-                    <img src="images/layanan/Pediatric.jpg" alt="">
-                    <p>Jiwa</P>
                 </div> </div>
                
 
