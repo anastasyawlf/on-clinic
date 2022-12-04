@@ -95,15 +95,15 @@ if (isset($_POST['submit'])) {
                         <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="images/slider/2.jpg" class="img-fluid" alt="">
+                                    <img src="images/slider/r1.jpg" class="img-fluid" alt="">
                                 </div>
 
                                 <div class="carousel-item">
-                                    <img src="images/slider/1.jpg" class="img-fluid" alt="">
+                                    <img src="images/slider/r2.jpg" class="img-fluid" alt="">
                                 </div>
 
                                 <div class="carousel-item">
-                                    <img src="images/slider/3.jpg" class="img-fluid" alt="">
+                                    <img src="images/slider/r3.jpg" class="img-fluid" alt="">
                                 </div>
                             </div>
                         </div>
