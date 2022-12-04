@@ -153,61 +153,65 @@ if (isset($_POST['submit'])) {
             <div class="layanan-container">
                 <div class="layanan">
                     <img src="images/layanan/anesthesia.jpg" alt="">
-                    <p>Anesthesia</P>
+                    <p>Anestesi</P>
                 </div>
                 <div class="layanan">
                     <img src="images/layanan/chest.jpg" alt="">
-                    <p>Chest Medicine</P>
+                    <p>Jantung dan Pembuluh Darah</P>
                 </div>                    
                 <div class="layanan">
                     <img src="images/layanan/Dermatology.jpg" alt="">
-                    <p>Dermatology</P>
+                    <p>Dermatologi</P>
                 </div>
                 <div class="layanan">
                     <img src="images/layanan/ent.jpg" alt="">
-                    <p>ENT</P>
+                    <p>THT</P>
                 </div>
                 <div class="layanan">
                     <img src="images/layanan/family.jpg" alt="">
-                    <p>Family Medicine</P>
+                    <p>Dokter Umum</P>
                 </div>
                     </div>
                 
             <div class="layanan-container">
                 <div class="layanan">
                     <img src="images/layanan/general.jpg" alt="">
-                    <p>General Surgery</P>
+                    <p>Bedah Umum</P>
                 </div>
                 <div class="layanan">
                     <img src="images/layanan/internal.jpg" alt="">
-                    <p>Internal Surgery</P>
+                    <p>Penyakit Dalam</P>
                 </div>                    
                 <div class="layanan">
                     <img src="images/layanan/obstetric.jpg" alt="">
-                    <p>Obstetric and Gynecology</P>
+                    <p>Kandungan dan Kebidanan</P>
                 </div>
                 <div class="layanan">
                     <img src="images/layanan/ophtalmology.jpg" alt="">
-                    <p>Ophtalmology</P>
+                    <p>Mata</P>
                 </div>
                 <div class="layanan">
                     <img src="images/layanan/orthopedic.jpg" alt="">
-                    <p>Orthopedic</P>
+                    <p>Ortopedi</P>
                 </div>
                     </div> 
                 
                 <div class="layanan-container">
                 <div class="layanan">
                     <img src="images/layanan/pathology.jpg" alt="">
-                    <p>Pathology</P>
+                    <p>Gigi</P>
                 </div>                    
                 <div class="layanan">
                     <img src="images/layanan/radiology.jpg" alt="">
-                    <p>Radiology</P>
+                    <p>Bedah Plastik</P>
                 </div>
                 <div class="layanan">
                     <img src="images/layanan/Pediatric.jpg" alt="">
-                    <p>Pediatric</P>
+                    <p>Anak</P>
+                </div> </div>
+                <div class="layanan">
+                    <img src="images/layanan/Pediatric.jpg" alt="">
+                    <p>Jiwa</P>
                 </div> </div>
                
 
