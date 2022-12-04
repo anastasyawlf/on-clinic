@@ -93,7 +93,7 @@ if (isset($_POST['submit'])) {
 
                     <div class="col-20">
                         <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                            <div class="carousel-inner" >
+                            <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <img src="images/slider/2.jpg" class="img-fluid" alt="">
                                 </div>
@@ -130,7 +130,7 @@ if (isset($_POST['submit'])) {
                             foreach ($results as $row) {               ?>
                                 <h2 class="mb-lg-3 mb-3"><?php echo htmlentities($row->PageTitle); ?></h2>
 
-                                <p><?php echo ($row->PageDescription); ?>.</p>
+                                <p><?php echo ($row->PageDescription); ?></p>
 
                         <?php $cnt = $cnt + 1;
                             }
@@ -209,61 +209,61 @@ Kami memiliki kemauan untuk terus belajar secara teratur dengan menciptakan dan 
             <div class="layanan-container">
                 <div class="layanan">
                     <img src="images/layanan/anesthesia.jpg" alt="">
-                    <p>Anesthesia</P>
+                    <p>Anestesi</P>
                 </div>
                 <div class="layanan">
                     <img src="images/layanan/chest.jpg" alt="">
-                    <p>Chest Medicine</P>
+                    <p>Jantung dan Pembuluh Darah</P>
                 </div>                    
                 <div class="layanan">
                     <img src="images/layanan/Dermatology.jpg" alt="">
-                    <p>Dermatology</P>
+                    <p>Dermatologi</P>
                 </div>
                 <div class="layanan">
                     <img src="images/layanan/ent.jpg" alt="">
-                    <p>ENT</P>
+                    <p>THT</P>
                 </div>
                 <div class="layanan">
                     <img src="images/layanan/family.jpg" alt="">
-                    <p>Family Medicine</P>
+                    <p>Dokter Umum</P>
                 </div>
                     </div>
                 
             <div class="layanan-container">
                 <div class="layanan">
                     <img src="images/layanan/general.jpg" alt="">
-                    <p>General Surgery</P>
+                    <p>Bedah Umum</P>
                 </div>
                 <div class="layanan">
                     <img src="images/layanan/internal.jpg" alt="">
-                    <p>Internal Surgery</P>
+                    <p>Penyakit Dalam</P>
                 </div>                    
                 <div class="layanan">
                     <img src="images/layanan/obstetric.jpg" alt="">
-                    <p>Obstetric and Gynecology</P>
+                    <p>Kandungan dan Kebidanan</P>
                 </div>
                 <div class="layanan">
                     <img src="images/layanan/ophtalmology.jpg" alt="">
-                    <p>Ophtalmology</P>
+                    <p>Mata</P>
                 </div>
                 <div class="layanan">
                     <img src="images/layanan/orthopedic.jpg" alt="">
-                    <p>Orthopedic</P>
+                    <p>Ortopedi</P>
                 </div>
                     </div> 
                 
                 <div class="layanan-container">
                 <div class="layanan">
                     <img src="images/layanan/pathology.jpg" alt="">
-                    <p>Pathology</P>
+                    <p>Gigi</P>
                 </div>                    
                 <div class="layanan">
                     <img src="images/layanan/radiology.jpg" alt="">
-                    <p>Radiology</P>
+                    <p>Bedah Plastik</P>
                 </div>
                 <div class="layanan">
                     <img src="images/layanan/Pediatric.jpg" alt="">
-                    <p>Pediatric</P>
+                    <p>Anak</P>
                 </div> </div>
                
 
@@ -305,7 +305,7 @@ Kami memiliki kemauan untuk terus belajar secara teratur dengan menciptakan dan 
                                     </div>
 
                                     <div class="col-lg-6 col-12">
-                                        <input type="telephone" name="phone" id="phone" class="form-control" placeholder="Nomor Telepon" maxlength="10">
+                                        <input type="telephone" name="phone" id="phone" class="form-control" placeholder="Nomor Telepon" maxlength="14">
                                     </div>
 
                                     <div class="col-lg-6 col-12">

@@ -8,22 +8,29 @@ if (isset($_POST['submit'])) {
 	$email = $_POST['email'];
 	$sid = $_POST['specializationid'];
 	$password = md5($_POST['password']);
+	$role = $_POST['role'];
 	$ret = "select Email from tbldoctor where Email=:email";
 	$query = $dbh->prepare($ret);
 	$query->bindParam(':email', $email, PDO::PARAM_STR);
 	$query->execute();
 	$results = $query->fetchAll(PDO::FETCH_OBJ);
 	if ($query->rowCount() == 0) {
-		$sql = "Insert Into tbldoctor(FullName,MobileNumber,Email,Specialization,Password)Values(:fname,:mobno,:email,:sid,:password)";
+		$sql = "Insert Into tbldoctor(FullName,MobileNumber,Email,Specialization,Password,role)Values(:fname,:mobno,:email,:sid,:password,'2')";
 		$query = $dbh->prepare($sql);
 		$query->bindParam(':fname', $fname, PDO::PARAM_STR);
 		$query->bindParam(':email', $email, PDO::PARAM_STR);
-		$query->bindParam(':mobno', $mobno, PDO::PARAM_INT);
+		$query->bindParam(':mobno', $mobno, PDO::PARAM_STR);
 		$query->bindParam(':sid', $sid, PDO::PARAM_INT);
 		$query->bindParam(':password', $password, PDO::PARAM_STR);
 		$query->execute();
 		$lastInsertId = $dbh->lastInsertId();
 		if ($lastInsertId) {
+			$sql2 = "Insert Into tbl(MobileNumber,email,password,role)Values(:mobno,:email,:password, '2')";
+			$query2 = $dbh->prepare($sql2);
+			$query2->bindParam(':email', $email, PDO::PARAM_STR);
+			$query2->bindParam(':mobno', $mobno, PDO::PARAM_STR);
+			$query2->bindParam(':password', $password, PDO::PARAM_STR);
+			$query2->execute();
 
 			echo "<script>alert('You have signup  Successfully');</script>";
 		} else {

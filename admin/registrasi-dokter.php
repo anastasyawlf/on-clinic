@@ -22,7 +22,7 @@ if (strlen($_SESSION['damsid'] == 0)) {
 			$query = $dbh->prepare($sql);
 			$query->bindParam(':fname', $fname, PDO::PARAM_STR);
 			$query->bindParam(':email', $email, PDO::PARAM_STR);
-			$query->bindParam(':mobno', $mobno, PDO::PARAM_INT);
+			$query->bindParam(':mobno', $mobno, PDO::PARAM_STR);
 			$query->bindParam(':sid', $sid, PDO::PARAM_INT);
 			$query->bindParam(':password', $password, PDO::PARAM_STR);
 			$query->execute();
@@ -31,7 +31,7 @@ if (strlen($_SESSION['damsid'] == 0)) {
 				$sql2 = "Insert Into tbl(MobileNumber,email,password,role)Values(:mobno,:email,:password, '2')";
 				$query2 = $dbh->prepare($sql2);
 				$query2->bindParam(':email', $email, PDO::PARAM_STR);
-				$query2->bindParam(':mobno', $mobno, PDO::PARAM_INT);
+				$query2->bindParam(':mobno', $mobno, PDO::PARAM_STR);
 				$query2->bindParam(':password', $password, PDO::PARAM_STR);
 				$query2->execute();
 
@@ -142,7 +142,7 @@ if (strlen($_SESSION['damsid'] == 0)) {
 											<div class="form-group">
 												<label for="email2" class="col-sm-3 control-label">Kata Sandi:</label>
 												<div class="col-sm-9">
-													<input id="email" type="text" class="form-control" placeholder="Kata Sandi" name="password" required="true">
+													<input id="email" type="password" class="form-control" placeholder="Kata Sandi" name="password" required="true">
 												</div>
 											</div>
 									<?php $cnt = $cnt + 1;
