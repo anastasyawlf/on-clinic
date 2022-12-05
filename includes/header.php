@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg bg-light fixed-top shadow-lg">
     <div class="container">
         <a class="navbar-brand mx-auto d-lg-none" href="index.php">
-            Doctor Appointment
+            On-Clinic
             <strong class="d-block">Management System</strong>
         </a>
 
@@ -22,7 +22,7 @@
 
 
                 <!-- <a class="navbar-brand d-none d-lg-block" href="index.php">
-                                Doctor Appointment
+                                On-Clinic
                                 <strong class="d-block">Management System</strong>
                             </a> -->
 
