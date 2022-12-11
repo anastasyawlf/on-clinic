@@ -10,7 +10,7 @@
     margin: 0 10px;
 }
 .layanan-container .layanan:hover img{
-    transform: scale(1.2);
+    transform: scale(1.6);
 }
 .layanan-container .layanan img{
     width: 100px;
@@ -24,3 +24,34 @@ font-weight: bold;
 margin-right: 40px;
 color:black;
 }
+
+.d2 {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding: 10px;
+    width : 70%;
+  }
+
+  .d2 img{
+      display: block;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+  }
+
+  b{
+    text-align: center;
+  }
+  
+  .d1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .d1 img{
+      display: block;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+  }

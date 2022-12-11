@@ -65,6 +65,10 @@ if (isset($_POST['submit'])) {
 
     <link rel="stylesheet" href="index.css" />
 
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
+    
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
+
     <script>
         function getdoctors(val) {
             //  alert(val);
@@ -209,85 +213,102 @@ Kami memiliki kemauan untuk terus belajar secara teratur dengan menciptakan dan 
             <div class="layanan-container">
                 <div class="layanan">
                     <img src="images/layanan/anesthesia.jpg" alt="">
-                    <p>Anestesi</P>
+                    <p class="text-center mb-lg-3 mb-2">Anestesi</P>
                 </div>
                 <div class="layanan">
                     <img src="images/layanan/jantung.png" alt="">
-                    <p>Jantung dan Pembuluh Darah</P>
+                    <p class="text-center mb-lg-3 mb-2">Jantung dan Pembuluh Darah</P>
                 </div>                    
                 <div class="layanan">
                     <img src="images/layanan/Dermatology.jpg" alt="">
-                    <p>Dermatologi</P>
+                    <p class="text-center mb-lg-3 mb-2">Dermatologi</P>
                 </div>
                 <div class="layanan">
                     <img src="images/layanan/ent.jpg" alt="">
-                    <p>THT</P>
+                    <p class="text-center mb-lg-3 mb-2">THT</P>
                 </div>
                 <div class="layanan">
                     <img src="images/layanan/family.jpg" alt="">
-                    <p>Dokter Umum</P>
+                    <p class="text-center mb-lg-3 mb-2">Dokter Umum</P>
                 </div>
                     </div>
                 
             <div class="layanan-container">
                 <div class="layanan">
                     <img src="images/layanan/general.jpg" alt="">
-                    <p>Bedah Umum</P>
+                    <p class="text-center mb-lg-3 mb-2">Bedah Umum</P>
                 </div>
                 <div class="layanan">
                     <img src="images/layanan/internal.jpg" alt="">
-                    <p>Penyakit Dalam</P>
+                    <p class="text-center mb-lg-3 mb-2">Penyakit Dalam</P>
                 </div>                    
                 <div class="layanan">
                     <img src="images/layanan/obstetric.jpg" alt="">
-                    <p>Kandungan dan Kebidanan</P>
+                    <p class="text-center mb-lg-3 mb-2">Kandungan dan Kebidanan</P>
                 </div>
                 <div class="layanan">
                     <img src="images/layanan/ophtalmology.jpg" alt="">
-                    <p>Mata</P>
+                    <p class="text-center mb-lg-3 mb-2">Mata</P>
                 </div>
                 <div class="layanan">
                     <img src="images/layanan/orthopedic.jpg" alt="">
-                    <p>Ortopedi</P>
+                    <p class="text-center mb-lg-3 mb-2">Ortopedi</P>
                 </div>
                     </div> 
                 
                 <div class="layanan-container">
                 <div class="layanan">
                     <img src="images/layanan/gigi.png" alt="">
-                    <p>Gigi</P>
+                    <p class="text-center mb-lg-3 mb-2">Gigi</P>
                 </div>                    
                 <div class="layanan">
                     <img src="images/layanan/plastik.png" alt="">
-                    <p>Bedah Plastik</P>
+                    <p class="text-center mb-lg-3 mb-2">Bedah Plastik</P>
                 </div>
                 <div class="layanan">
                     <img src="images/layanan/Pediatric.jpg" alt="">
-                    <p>Anak</P>
+                    <p class="text-center mb-lg-3 mb-2">Anak</P>
                 </div>
                 <div class="layanan">
                     <img src="images/layanan/kejiwaan.png" alt="">
-                    <p>Kejiwaan</P>
+                    <p class="text-center mb-lg-3 mb-2">Kejiwaan</P>
                 </div> </div>
-               
-
-                <!-- <div class="row">
-
-                    <div class="col-lg-6 col-6 ps-0">
-                        <img src="images/gallery/medium-shot-man-getting-vaccine.jpg" class="img-fluid galleryImage" alt="get a vaccine" title="get a vaccine for yourself">
-                    </div>
-
-                    <div class="col-lg-6 col-6 pe-0">
-                        <img src="images/gallery/female-doctor-with-presenting-hand-gesture.jpg" class="img-fluid galleryImage" alt="wear a mask" title="wear a mask to protect yourself">
-                    </div> -->
-
                 </div>
             </div>
         </section>
+<br><br><br>
+    <section class=jadwal>
+    <h2 class="text-center mb-lg-3 mb-2">Jadwal Dokter</h2>
+    <div class="slider-nav d2">
+    <div><img src="images/jadwal/1.jpg" alt="">
+    <b style="">Dr. A</b>
+    </div>
+    <div><img src="images/jadwal/2.jpg" alt="">
+    <b style="">Dr. B</b>
+    </div>
+    <div><img src="images/jadwal/3.jpg" alt="">
+    <b style="">Dr. C</b>
+    </div>
+    <div><img src="images/jadwal/1.jpg" alt="">
+    <b style="">Dr. D</b>
+    </div>
+    <div><img src="images/jadwal/2.jpg" alt="">
+    <b style="">Dr. E</b>
+    </div>
+    <div><img src="images/jadwal/2.jpg" alt="">
+    <b style="">Dr. F</b>
+    </div>
+  </div>
 
-
-
-
+  <div class="slider-for d1">
+  <div><img src="images/jadwal/senin.jpg" alt=""></div>
+    <div><img src="images/jadwal/senin.jpg" alt=""></div>
+    <div><img src="images/jadwal/senin.jpg" alt=""></div>
+    <div><img src="images/jadwal/senin.jpg" alt=""></div>
+    <div><img src="images/jadwal/senin.jpg" alt=""></div>
+    <div><img src="images/jadwal/senin.jpg" alt=""></div>
+  </div>
+        </section>
 
         <section class="section-padding" id="booking">
             <div class="container">
@@ -373,6 +394,30 @@ Kami memiliki kemauan untuk terus belajar secara teratur dengan menciptakan dan 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+
+  <script type="text/javascript">
+    $('.slider-for').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: '.slider-nav'
+});
+$('.slider-nav').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  asNavFor: '.slider-for',
+  arrows: true,
+  dots: true,
+  centerMode: true,
+  focusOnSelect: true
+});
+  </script>
+
+
 </body>
 
 </html>
